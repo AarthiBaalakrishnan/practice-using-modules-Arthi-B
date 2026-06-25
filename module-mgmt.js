@@ -48,7 +48,7 @@ switch (city.city) {
   case "new york":
     printHeader();
     console.log(chalk.cyan(`Temperature: `) + chalk.white(`75°F`));
-    console.log(chalk.yellow(`Condition: `) + chalk.white(`Drizzling`));
+    console.log(chalk.yellow(`Condition: `) + chalk.wnodehite(`Drizzling`));
     console.log(chalk.blue(`Feels like: `) + chalk.white(`70°F`));
     console.log(chalk.green(`Humidity: `) + chalk.white(`61%`));
     console.log(chalk.magentaBright(`UV: `) + chalk.white(`Weak`));
